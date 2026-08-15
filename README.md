@@ -1,16 +1,14 @@
-# LG Pizza — Single File GitHub Version
+# LG Pizza Cinematic Edition
 
-Each page is completely self-contained: CSS and JavaScript are embedded inside the HTML.
+Upload all six HTML files to the repository root.
 
-Upload these six files directly to the root of your GitHub repository:
+The home page now uses Three.js with:
+- real-time 3D pizza geometry
+- scroll-driven cinematic camera movement
+- bloom/glow
+- particles and fog
+- emissive lighting
+- rotating orbit rings
+- mouse parallax
 
-- index.html
-- menu.html
-- signature.html
-- about.html
-- offers.html
-- contact.html
-
-No css or js folders are required.
-
-Then enable GitHub Pages from Settings → Pages → Deploy from a branch → main → / (root).
+Three.js is loaded from jsDelivr, so the 3D hero needs an internet connection.
